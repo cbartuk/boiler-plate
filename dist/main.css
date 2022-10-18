@@ -1,0 +1,19 @@
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap);
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss (1) ***!
+  \*****************************************************************************************************************/
+@charset "UTF-8";
+/* tanımladığımız değişkenleri "import" ederek kullanıyoruz. */ /*
+  Tüm değişkenlerimizi bu dosyada tanımlıyoruz.
+  Bu sayede değişkenlerimizi tek bir yerden yönetebiliyoruz.
+  Birden fazla kez kullanacağımız tüm değerler için bir değişken tanımlamayı tercih ediyoruz.
+*/
+/* google font dosyasını çekiyoruz */
+body {
+  background: #060d0b;
+  color: #e2d9cf;
+  font-family: "Open Sans", sans-serif;
+}
