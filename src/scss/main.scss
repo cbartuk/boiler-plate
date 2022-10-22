@@ -4,8 +4,7 @@
 /* google font dosyasını çekiyoruz */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
-body {
-  background: $bg-dark;
-  color: $text-color-light;
-  font-family: $font-family-sans-serif;
-}
+@import "reboot.scss";
+@import "base.scss";
+@import "coffee-order-app.scss";
+@import "coffee-type.sprite.scss";

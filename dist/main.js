@@ -104,7 +104,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1666088164833\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://my-app/./src/scss/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1666440813769\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/\",\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://my-app/./src/scss/main.scss?");
 
 /***/ }),
 
@@ -286,7 +286,7 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n\n\n/**\n * html forms\n * https://codepen.io/gymratpacks/pen/VKzBEp\n * https://codepen.io/DaveTheDev/pen/abgRQJ\n * https://codepen.io/cheryl-codes/pen/ZRBQOv\n * https://codepen.io/Tbgse/pen/JXrJGX\n * https://codepen.io/Ver4Nata/pen/MGeXPZ\n *\n * checkboxes\n * https://codepen.io/onediv/pen/pjgNqJ\n * https://codepen.io/maxim/pen/OWVVjM\n * https://codepen.io/nirazul/pen/dybWgx\n * https://codepen.io/Al-Yasa/pen/oBvwMq\n * https://codepen.io/theprogrammingexpert/pen/RwamBKb\n * https://codepen.io/felicegattuso/pen/MjoQer\n * https://codepen.io/andrey_y_t/pen/zYdBNPB\n * https://codepen.io/G_4s/pen/LbydwK\n * https://codepen.io/Tef/pen/eYpgqjE\n */\n\n\n//# sourceURL=webpack://my-app/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scss/main.scss */ \"./src/scss/main.scss\");\n\n\n\n//# sourceURL=webpack://my-app/./src/index.js?");
 
 /***/ })
 
@@ -384,7 +384,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("fc19789785cb1205b38a")
+/******/ 		__webpack_require__.h = () => ("92177af117398442c032")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
