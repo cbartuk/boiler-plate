@@ -5,54 +5,67 @@
     <link rel="stylesheet" href="dist/main.css" />
   </head>
   <body>
-    <header class="p-1 text-bg-dark">
-      <div class="container">
-        <div
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
-        >
-          <a
-            href="/"
-            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
-          >
-            <svg
-              class="bi me-2"
-              width="40"
-              height="32"
-              role="img"
-              aria-label="Bootstrap"
-            >
-              <use xlink:href="#bootstrap"></use>
-            </svg>
-          </a>
-
-          <ul
-            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
-          >
-            <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-          </ul>
-
-          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input
-              type="search"
-              class="form-control form-control-dark text-bg-dark"
-              placeholder="Search..."
-              aria-label="Search"
-            />
-          </form>
-
-          <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">
-              Login
-            </button>
-            <button type="button" class="btn btn-warning">Sign-up</button>
-          </div>
+    <section class="coffee-order-app">
+      <header>
+        <img src="assets/images/goat.svg" width="100" alt="Coffee Shop Logo" />
+        <h1>Kara Keçi</h1>
+        <p>Kişiye Özel Kahve</p>
+      </header>
+      <form class="coffee-types-form">
+        <h2>Kahveni Seç</h2>
+        <div class="coffee-type-item">
+          <label for="espresso">
+            <div class="coffee-type espresso"></div>
+            <span>Espresso</span>
+          </label>
+          <button type="submit" formaction="select-beans.html" id="espresso">
+            + Seç
+          </button>
         </div>
-      </div>
-    </header>
+
+        <div class="coffee-type-item">
+          <label for="cappuccino">
+            <div class="coffee-type cappuccino"></div>
+            <span>Cappuccino</span>
+          </label>
+          <button type="submit" id="cappuccino" formaction="select-milk.html">
+            + Seç
+          </button>
+        </div>
+
+        <div class="coffee-type-item">
+          <label for="latte">
+            <div class="coffee-type latte"></div>
+            <span>Latte</span>
+          </label>
+          <button type="submit" id="latte">+ Seç</button>
+        </div>
+
+        <div class="coffee-type-item">
+          <label for="mocha">
+            <div class="coffee-type mocha"></div>
+            <span>Mocha</span>
+          </label>
+          <button type="submit" id="mocha">+ Seç</button>
+        </div>
+
+        <div class="coffee-type-item">
+          <label for="americano">
+            <div class="coffee-type americano"></div>
+            <span>Americano</span>
+          </label>
+          <button type="submit" id="americano">+ Seç</button>
+        </div>
+
+        <div class="coffee-type-item">
+          <label for="macchiato">
+            <div class="coffee-type macchiato"></div>
+            <span>Macchiato</span>
+          </label>
+          <button type="submit" id="macchiato">+ Seç</button>
+        </div>
+      </form>
+    </section>
     <script src="dist/main.js"></script>
   </body>
 </html>
