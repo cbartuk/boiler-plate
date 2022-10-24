@@ -7,7 +7,7 @@
     "start": "webpack serve --mode development",
     "build": "webpack build --mode production"
   },
-  "author": "MKare",
+  "author": "SenatorMaul",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.7.1",
