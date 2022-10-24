@@ -4,67 +4,79 @@
     <title></title>
     <link rel="stylesheet" href="dist/main.css" />
   </head>
-  <body>
+  <body class="bg-dark text-light">
     <section class="coffee-order-app">
-      <header>
+      <header class="d-flex align-items-center flex-column my-5">
         <img src="assets/images/goat.svg" width="100" alt="Coffee Shop Logo" />
         <h1>Kara Keçi</h1>
         <p>Kişiye Özel Kahve</p>
       </header>
-      <form class="coffee-types-form">
-        <h2>Kahveni Seç</h2>
-        <div class="coffee-type-item">
-          <label for="espresso">
-            <div class="coffee-type espresso"></div>
-            <span>Espresso</span>
-          </label>
-          <button type="submit" formaction="select-beans.html" id="espresso">
-            + Seç
-          </button>
-        </div>
+      <div class="d-flex justify-content-center">
+        <form class="coffee-types-form">
+          <h2 class="text-center">Kahveni Seç</h2>
+          <div class="d-flex justify-content-between">
+            <div class="coffee-type-item">
+              <label for="espresso">
+                <div class="coffee-type espresso"></div>
+                <span>Espresso</span>
+              </label>
+              <button
+                type="submit"
+                formaction="select-beans.html"
+                id="espresso"
+              >
+                + Seç
+              </button>
+            </div>
 
-        <div class="coffee-type-item">
-          <label for="cappuccino">
-            <div class="coffee-type cappuccino"></div>
-            <span>Cappuccino</span>
-          </label>
-          <button type="submit" id="cappuccino" formaction="select-milk.html">
-            + Seç
-          </button>
-        </div>
+            <div class="coffee-type-item">
+              <label for="cappuccino">
+                <div class="coffee-type cappuccino"></div>
+                <span>Cappuccino</span>
+              </label>
+              <button
+                type="submit"
+                id="cappuccino"
+                formaction="select-milk.html"
+              >
+                + Seç
+              </button>
+            </div>
 
-        <div class="coffee-type-item">
-          <label for="latte">
-            <div class="coffee-type latte"></div>
-            <span>Latte</span>
-          </label>
-          <button type="submit" id="latte">+ Seç</button>
-        </div>
+            <div class="coffee-type-item">
+              <label for="latte">
+                <div class="coffee-type latte"></div>
+                <span>Latte</span>
+              </label>
+              <button type="submit" id="latte">+ Seç</button>
+            </div>
 
-        <div class="coffee-type-item">
-          <label for="mocha">
-            <div class="coffee-type mocha"></div>
-            <span>Mocha</span>
-          </label>
-          <button type="submit" id="mocha">+ Seç</button>
-        </div>
+            <div class="coffee-type-item">
+              <label for="mocha">
+                <div class="coffee-type mocha"></div>
+                <span>Mocha</span>
+              </label>
+              <button type="submit" id="mocha">+ Seç</button>
+            </div>
 
-        <div class="coffee-type-item">
-          <label for="americano">
-            <div class="coffee-type americano"></div>
-            <span>Americano</span>
-          </label>
-          <button type="submit" id="americano">+ Seç</button>
-        </div>
+            <div class="coffee-type-item">
+              <label for="americano">
+                <div class="coffee-type americano"></div>
+                <span>Americano</span>
+              </label>
+              <button type="submit" id="americano">+ Seç</button>
+            </div>
 
-        <div class="coffee-type-item">
-          <label for="macchiato">
-            <div class="coffee-type macchiato"></div>
-            <span>Macchiato</span>
-          </label>
-          <button type="submit" id="macchiato">+ Seç</button>
-        </div>
-      </form>
+            <div class="coffee-type-item">
+              <label for="macchiato">
+                <div class="coffee-type macchiato"></div>
+                <span>Macchiato</span>
+              </label>
+              <button type="submit" id="macchiato">+ Seç</button>
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
     <script src="dist/main.js"></script>
   </body>
